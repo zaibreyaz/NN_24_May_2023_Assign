@@ -14,11 +14,11 @@ def get_requirements(file_path:str)->List[str]:
         return requirements
 
 setup(
-    name = 'YOUR PROJECT NAME',
+    name = 'Breast Cancer Detector',
     version = '0.0.1',
     author = 'Zaib',
     author_email = 'zaibreyazmd@gmail.com',
-    install_requires = get_requirements('requirement.txt'),
+    install_requires = get_requirements('requirements.txt'),
     packages=find_packages()
 
 )
